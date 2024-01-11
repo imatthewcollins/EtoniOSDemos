@@ -9,11 +9,53 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            HeaderView()
+            Spacer()
+            List {
+                Section {
+                    NavigationLink {
+                        AboutView()
+                    } label: {
+                        Text("About")
+                    }
+                    
+                    NavigationLink {
+                        ContributingView()
+                    } label: {
+                        Text("How to contribute")
+                    }
+                    
+                    NavigationLink {
+                        IssuesView()
+                    } label: {
+                        Text("Known issues")
+                    }
+
+
+
+                } header: {
+                    Text("General Information")
+                }
+                
+                Section {
+                    NavigationLink {
+                        HelloWorldView()
+                    } label: {
+                        Text("Output Hello, World!")
+                    }
+
+                } header: {
+                    Text("Tutorials")
+                }
+                
+                Section {
+                    Text("Yo")
+                } header: {
+                    Text("Scratch paper")
+                }
+            }
+            .listStyle(.plain)
         }
         .padding()
     }

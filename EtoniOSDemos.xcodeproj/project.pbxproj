@@ -14,6 +14,13 @@
 		3E8F1FBC2B504AA900CC1079 /* EtoniOSDemosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FBB2B504AA900CC1079 /* EtoniOSDemosTests.swift */; };
 		3E8F1FC62B504AA900CC1079 /* EtoniOSDemosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FC52B504AA900CC1079 /* EtoniOSDemosUITests.swift */; };
 		3E8F1FC82B504AA900CC1079 /* EtoniOSDemosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FC72B504AA900CC1079 /* EtoniOSDemosUITestsLaunchTests.swift */; };
+		3E8F1FDA2B504E8000CC1079 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FD92B504E8000CC1079 /* HeaderView.swift */; };
+		3E8F1FDE2B50500D00CC1079 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FDD2B50500D00CC1079 /* AboutView.swift */; };
+		3E8F1FE02B5053D100CC1079 /* ContributingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FDF2B5053D100CC1079 /* ContributingView.swift */; };
+		3E8F1FE22B50559500CC1079 /* HelloWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FE12B50559500CC1079 /* HelloWorldView.swift */; };
+		3E8F1FE92B5056EE00CC1079 /* IssuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FE82B5056EE00CC1079 /* IssuesView.swift */; };
+		3E8F1FED2B50581300CC1079 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FEC2B50581300CC1079 /* Human.swift */; };
+		3E8F1FEF2B50586C00CC1079 /* DisplayHumanNameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FEE2B50586C00CC1079 /* DisplayHumanNameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +51,13 @@
 		3E8F1FC12B504AA900CC1079 /* EtoniOSDemosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EtoniOSDemosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8F1FC52B504AA900CC1079 /* EtoniOSDemosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtoniOSDemosUITests.swift; sourceTree = "<group>"; };
 		3E8F1FC72B504AA900CC1079 /* EtoniOSDemosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtoniOSDemosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3E8F1FD92B504E8000CC1079 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		3E8F1FDD2B50500D00CC1079 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		3E8F1FDF2B5053D100CC1079 /* ContributingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContributingView.swift; sourceTree = "<group>"; };
+		3E8F1FE12B50559500CC1079 /* HelloWorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloWorldView.swift; sourceTree = "<group>"; };
+		3E8F1FE82B5056EE00CC1079 /* IssuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesView.swift; sourceTree = "<group>"; };
+		3E8F1FEC2B50581300CC1079 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
+		3E8F1FEE2B50586C00CC1079 /* DisplayHumanNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayHumanNameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +108,9 @@
 		3E8F1FA92B504AA700CC1079 /* EtoniOSDemos */ = {
 			isa = PBXGroup;
 			children = (
+				3E8F1FD42B504ACA00CC1079 /* Models */,
+				3E8F1FD62B504ADF00CC1079 /* ViewModels */,
+				3E8F1FD52B504AD500CC1079 /* Views */,
 				3E8F1FAA2B504AA700CC1079 /* EtoniOSDemosApp.swift */,
 				3E8F1FAC2B504AA700CC1079 /* ContentView.swift */,
 				3E8F1FAE2B504AA900CC1079 /* Assets.xcassets */,
@@ -125,6 +142,90 @@
 				3E8F1FC72B504AA900CC1079 /* EtoniOSDemosUITestsLaunchTests.swift */,
 			);
 			path = EtoniOSDemosUITests;
+			sourceTree = "<group>";
+		};
+		3E8F1FD42B504ACA00CC1079 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F1FE72B50568400CC1079 /* ScratchPaper */,
+				3E8F1FE32B5055FE00CC1079 /* Tutorials */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E8F1FD52B504AD500CC1079 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F1FE52B50567500CC1079 /* ScratchPaper */,
+				3E8F1FDC2B50500200CC1079 /* Tutorials */,
+				3E8F1FDB2B504FFB00CC1079 /* General */,
+				3E8F1FD92B504E8000CC1079 /* HeaderView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3E8F1FD62B504ADF00CC1079 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F1FE62B50567F00CC1079 /* ScratchPaper */,
+				3E8F1FE42B50566C00CC1079 /* Tutorials */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3E8F1FDB2B504FFB00CC1079 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F1FDD2B50500D00CC1079 /* AboutView.swift */,
+				3E8F1FDF2B5053D100CC1079 /* ContributingView.swift */,
+				3E8F1FE82B5056EE00CC1079 /* IssuesView.swift */,
+			);
+			path = General;
+			sourceTree = "<group>";
+		};
+		3E8F1FDC2B50500200CC1079 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F1FE12B50559500CC1079 /* HelloWorldView.swift */,
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
+		3E8F1FE32B5055FE00CC1079 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
+		3E8F1FE42B50566C00CC1079 /* Tutorials */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tutorials;
+			sourceTree = "<group>";
+		};
+		3E8F1FE52B50567500CC1079 /* ScratchPaper */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F1FEE2B50586C00CC1079 /* DisplayHumanNameView.swift */,
+			);
+			path = ScratchPaper;
+			sourceTree = "<group>";
+		};
+		3E8F1FE62B50567F00CC1079 /* ScratchPaper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ScratchPaper;
+			sourceTree = "<group>";
+		};
+		3E8F1FE72B50568400CC1079 /* ScratchPaper */ = {
+			isa = PBXGroup;
+			children = (
+				3E8F1FEC2B50581300CC1079 /* Human.swift */,
+			);
+			path = ScratchPaper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,8 +358,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E8F1FDE2B50500D00CC1079 /* AboutView.swift in Sources */,
+				3E8F1FE92B5056EE00CC1079 /* IssuesView.swift in Sources */,
+				3E8F1FEF2B50586C00CC1079 /* DisplayHumanNameView.swift in Sources */,
 				3E8F1FAD2B504AA700CC1079 /* ContentView.swift in Sources */,
+				3E8F1FE22B50559500CC1079 /* HelloWorldView.swift in Sources */,
+				3E8F1FDA2B504E8000CC1079 /* HeaderView.swift in Sources */,
+				3E8F1FE02B5053D100CC1079 /* ContributingView.swift in Sources */,
 				3E8F1FAB2B504AA700CC1079 /* EtoniOSDemosApp.swift in Sources */,
+				3E8F1FED2B50581300CC1079 /* Human.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
