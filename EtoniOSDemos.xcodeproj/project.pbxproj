@@ -58,6 +58,7 @@
 		3E8F1FE82B5056EE00CC1079 /* IssuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesView.swift; sourceTree = "<group>"; };
 		3E8F1FEC2B50581300CC1079 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
 		3E8F1FEE2B50586C00CC1079 /* DisplayHumanNameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayHumanNameView.swift; sourceTree = "<group>"; };
+		3E8F1FF02B50593800CC1079 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +89,7 @@
 		3E8F1F9E2B504AA700CC1079 = {
 			isa = PBXGroup;
 			children = (
+				3E8F1FF02B50593800CC1079 /* README.md */,
 				3E8F1FA92B504AA700CC1079 /* EtoniOSDemos */,
 				3E8F1FBA2B504AA900CC1079 /* EtoniOSDemosTests */,
 				3E8F1FC42B504AA900CC1079 /* EtoniOSDemosUITests */,
