@@ -50,9 +50,14 @@ struct ContentView: View {
                 }
                 
                 Section {
-                    Text("Yo")
+                    NavigationLink {
+                        ScratchPaperView()
+                    } label: {
+                        Text("Scratch Paper")
+                    }
+
                 } header: {
-                    Text("Scratch paper")
+                    Text("Demos")
                 }
             }
             .listStyle(.plain)
