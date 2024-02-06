@@ -9,31 +9,44 @@ import SwiftUI
 
 struct ScratchPaperView: View {
     
-    @State var name: String = ""
-    @State var isWelcomeShowing: Bool = false
+    let james = Etonian(firstName: "James", lastName: "Wingfield", block: .c, majorSport: .fieldGame)
     
-    var body: some View {
-        VStack {
-            Text("Hello world")
-            TextField("Enter your name", text: $name)
-            
-            Button {
-                isWelcomeShowing.toggle()
-            } label: {
-                Text("Submit")
-            }
-            
-            if isWelcomeShowing {
-                Text("Hello \(name)")
-            }
+    @State var students: [Etonian]
+    
+    @State private var firstName = String()
+    @State private var blockInput: Block = .f
+    @State private var quantity: Double = Double()
+    
+    @State private var rating: Int = Int()
 
+    var body: some View {
+        Form {
+            
+            Section {
+                TextField("Enter name", text: $firstName)
+                HStack {
+                    Text("\(String(format: "%.2f", quantity))")
+                    Slider(value: $quantity, in: 0...10) {
+                        Text("Slide")
+                    }
+                }
+            }
+            
+            Section {
+                Stepper("Enter a rating: \(rating)", value: $rating)
+            }
+            
+            Section {
+                ForEach(students, id:\.lastName) { student in
+                    Text(student.firstName)
+                }
+            }
         }
-        .padding()
     }
 }
 
 struct ScratchPaperView_Previews: PreviewProvider {
     static var previews: some View {
-        ScratchPaperView()
+        ScratchPaperView(students: Etonian.examples)
     }
 }
