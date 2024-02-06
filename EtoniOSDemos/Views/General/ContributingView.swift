@@ -17,6 +17,10 @@ struct ContributingView: View {
     The NavigationLink(destination:label:) works well, where "destination" is the new view that you have created, and "label" is the text that will display on the ContentView.swift List view.
     
     To play around with the Scratch Paper section or do some quick demos, follow the same steps as above, except follow the paths to the /ScratchPaper directories.
+    
+    Naming Convention:
+    
+    xyz
     """
     
     var body: some View {
