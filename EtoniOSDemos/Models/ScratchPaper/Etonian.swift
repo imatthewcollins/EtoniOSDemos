@@ -16,11 +16,11 @@ struct Etonian {
     var fullName: String {
         return firstName + " " + lastName
     }
-    
+
     #if DEBUG
-    static let examples = [
-        Etonian(firstName: "Cosmo", lastName: "P-C", block: .c, majorSport: .cricket),
-        Etonian(firstName: "Archie", lastName: "Gherendi", block: .c, majorSport: .rowing)
+    static var examples = [
+        Etonian(firstName: "Will", lastName: "Eze", block: .c, majorSport: .fieldGame),
+        Etonian(firstName: "Seb", lastName: "Micko", block: .c, majorSport: .rugby)
     ]
     #endif
 }
