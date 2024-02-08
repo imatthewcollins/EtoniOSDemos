@@ -29,6 +29,6 @@ enum Block: String, CaseIterable {
     case f, e, d, c, b
 }
 
-enum MajorSport: String {
+enum MajorSport: String, CaseIterable {
     case football, rugby, fieldGame = "Field Game", hockey, rowing, cricket, tennis, athletics
 }
