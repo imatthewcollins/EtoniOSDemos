@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3E65EF332B6178CB00783E6F /* ScratchPaperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E65EF322B6178CB00783E6F /* ScratchPaperView.swift */; };
 		3E7E49562B6CE3D200C3A4D9 /* Etonian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E49552B6CE3D200C3A4D9 /* Etonian.swift */; };
 		3E8F1FAB2B504AA700CC1079 /* EtoniOSDemosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FAA2B504AA700CC1079 /* EtoniOSDemosApp.swift */; };
 		3E8F1FAD2B504AA700CC1079 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FAC2B504AA700CC1079 /* ContentView.swift */; };
@@ -22,6 +21,7 @@
 		3E8F1FE22B50559500CC1079 /* HelloWorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FE12B50559500CC1079 /* HelloWorldView.swift */; };
 		3E8F1FE92B5056EE00CC1079 /* IssuesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FE82B5056EE00CC1079 /* IssuesView.swift */; };
 		3E8F1FED2B50581300CC1079 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FEC2B50581300CC1079 /* Human.swift */; };
+		3EC51C4C2B750B4900F07FBB /* ScratchPaperMCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC51C4B2B750B4900F07FBB /* ScratchPaperMCView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,7 +42,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		3E65EF322B6178CB00783E6F /* ScratchPaperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchPaperView.swift; sourceTree = "<group>"; };
 		3E7E49552B6CE3D200C3A4D9 /* Etonian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etonian.swift; sourceTree = "<group>"; };
 		3E8F1FA72B504AA700CC1079 /* EtoniOSDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtoniOSDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8F1FAA2B504AA700CC1079 /* EtoniOSDemosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtoniOSDemosApp.swift; sourceTree = "<group>"; };
@@ -61,6 +60,7 @@
 		3E8F1FE82B5056EE00CC1079 /* IssuesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IssuesView.swift; sourceTree = "<group>"; };
 		3E8F1FEC2B50581300CC1079 /* Human.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Human.swift; sourceTree = "<group>"; };
 		3E8F1FF02B50593800CC1079 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3EC51C4B2B750B4900F07FBB /* ScratchPaperMCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchPaperMCView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -212,7 +212,8 @@
 		3E8F1FE52B50567500CC1079 /* ScratchPaper */ = {
 			isa = PBXGroup;
 			children = (
-				3E65EF322B6178CB00783E6F /* ScratchPaperView.swift */,
+				3EC51C4A2B750B2B00F07FBB /* DPC */,
+				3EC51C492B750B2600F07FBB /* MC */,
 			);
 			path = ScratchPaper;
 			sourceTree = "<group>";
@@ -231,6 +232,21 @@
 				3E7E49552B6CE3D200C3A4D9 /* Etonian.swift */,
 			);
 			path = ScratchPaper;
+			sourceTree = "<group>";
+		};
+		3EC51C492B750B2600F07FBB /* MC */ = {
+			isa = PBXGroup;
+			children = (
+				3EC51C4B2B750B4900F07FBB /* ScratchPaperMCView.swift */,
+			);
+			path = MC;
+			sourceTree = "<group>";
+		};
+		3EC51C4A2B750B2B00F07FBB /* DPC */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DPC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -369,8 +385,8 @@
 				3E8F1FAD2B504AA700CC1079 /* ContentView.swift in Sources */,
 				3E8F1FE22B50559500CC1079 /* HelloWorldView.swift in Sources */,
 				3E8F1FDA2B504E8000CC1079 /* HeaderView.swift in Sources */,
-				3E65EF332B6178CB00783E6F /* ScratchPaperView.swift in Sources */,
 				3E8F1FE02B5053D100CC1079 /* ContributingView.swift in Sources */,
+				3EC51C4C2B750B4900F07FBB /* ScratchPaperMCView.swift in Sources */,
 				3E8F1FAB2B504AA700CC1079 /* EtoniOSDemosApp.swift in Sources */,
 				3E8F1FED2B50581300CC1079 /* Human.swift in Sources */,
 			);

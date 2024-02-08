@@ -51,7 +51,7 @@ struct ContentView: View {
                 
                 Section {
                     NavigationLink {
-                        ScratchPaperView(students: Etonian.examples)
+                        ScratchPaperMCView(students: Etonian.examples)
                     } label: {
                         Text("Scratch Paper")
                     }
