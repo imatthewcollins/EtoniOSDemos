@@ -40,9 +40,21 @@ struct ContentView: View {
                 
                 Section {
                     NavigationLink {
+                        AlertView()
+                    } label: {
+                        Text("Showing alerts")
+                    }
+                    
+                    NavigationLink {
+                        TernaryOperatorView()
+                    } label: {
+                        Text("Using the ternary operator")
+                    }
+                    
+                    NavigationLink {
                         HelloWorldView()
                     } label: {
-                        Text("Output Hello, World!")
+                        Text("Outputting Hello, World!")
                     }
 
                 } header: {
@@ -53,7 +65,7 @@ struct ContentView: View {
                     NavigationLink {
                         ScratchPaperMCView(students: Etonian.examples)
                     } label: {
-                        Text("Scratch Paper")
+                        Text("MC Scratch Paper")
                     }
 
                 } header: {
