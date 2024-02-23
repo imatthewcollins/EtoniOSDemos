@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E519DFB2B88A98700FF58D3 /* PickersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E519DFA2B88A98700FF58D3 /* PickersView.swift */; };
 		3E7E49562B6CE3D200C3A4D9 /* Etonian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7E49552B6CE3D200C3A4D9 /* Etonian.swift */; };
 		3E8F1FAB2B504AA700CC1079 /* EtoniOSDemosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FAA2B504AA700CC1079 /* EtoniOSDemosApp.swift */; };
 		3E8F1FAD2B504AA700CC1079 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FAC2B504AA700CC1079 /* ContentView.swift */; };
@@ -44,6 +45,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3E519DFA2B88A98700FF58D3 /* PickersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickersView.swift; sourceTree = "<group>"; };
 		3E7E49552B6CE3D200C3A4D9 /* Etonian.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Etonian.swift; sourceTree = "<group>"; };
 		3E8F1FA72B504AA700CC1079 /* EtoniOSDemos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EtoniOSDemos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E8F1FAA2B504AA700CC1079 /* EtoniOSDemosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EtoniOSDemosApp.swift; sourceTree = "<group>"; };
@@ -197,6 +199,7 @@
 				3E8F1FE12B50559500CC1079 /* HelloWorldView.swift */,
 				3E99F4722B7625DE00DA425C /* TernaryOperatorView.swift */,
 				3E99F4742B76282900DA425C /* AlertView.swift */,
+				3E519DFA2B88A98700FF58D3 /* PickersView.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				3E99F4752B76282900DA425C /* AlertView.swift in Sources */,
 				3E99F4732B7625DE00DA425C /* TernaryOperatorView.swift in Sources */,
 				3E8F1FDA2B504E8000CC1079 /* HeaderView.swift in Sources */,
+				3E519DFB2B88A98700FF58D3 /* PickersView.swift in Sources */,
 				3E8F1FE02B5053D100CC1079 /* ContributingView.swift in Sources */,
 				3EC51C4C2B750B4900F07FBB /* ScratchPaperMCView.swift in Sources */,
 				3E8F1FAB2B504AA700CC1079 /* EtoniOSDemosApp.swift in Sources */,

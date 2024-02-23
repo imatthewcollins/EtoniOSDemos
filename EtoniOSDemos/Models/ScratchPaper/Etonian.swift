@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Etonian {
+struct Etonian: Hashable {
     let firstName: String
     let lastName: String
     let block: Block
