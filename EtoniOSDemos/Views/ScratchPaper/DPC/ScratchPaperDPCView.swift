@@ -13,6 +13,6 @@ struct ScratchPaperDPCView: View {
     }
 }
 
-#Preview {
-    ScratchPaperDPCView()
-}
+//#Preview {
+//    ScratchPaperDPCView()
+//}

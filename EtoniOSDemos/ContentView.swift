@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             HeaderView()
-            Spacer()
+                .padding()
             List {
                 Section {
                     NavigationLink {
@@ -94,8 +94,8 @@ struct ContentView: View {
                 }
             }
             .listStyle(.plain)
+//            .navigationTitle("Eton CS")
         }
-        .padding()
     }
 }
 
