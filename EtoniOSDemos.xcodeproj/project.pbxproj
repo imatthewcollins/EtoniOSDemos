@@ -24,6 +24,8 @@
 		3E8F1FED2B50581300CC1079 /* Human.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E8F1FEC2B50581300CC1079 /* Human.swift */; };
 		3E99F4732B7625DE00DA425C /* TernaryOperatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99F4722B7625DE00DA425C /* TernaryOperatorView.swift */; };
 		3E99F4752B76282900DA425C /* AlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E99F4742B76282900DA425C /* AlertView.swift */; };
+		3EB121512B8DF88B002A73B8 /* NavigationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB121502B8DF88B002A73B8 /* NavigationDemoView.swift */; };
+		3EB121532B8DF93F002A73B8 /* StudentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB121522B8DF93F002A73B8 /* StudentDetailView.swift */; };
 		3EC51C4C2B750B4900F07FBB /* ScratchPaperMCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC51C4B2B750B4900F07FBB /* ScratchPaperMCView.swift */; };
 /* End PBXBuildFile section */
 
@@ -66,6 +68,8 @@
 		3E8F1FF02B50593800CC1079 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3E99F4722B7625DE00DA425C /* TernaryOperatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TernaryOperatorView.swift; sourceTree = "<group>"; };
 		3E99F4742B76282900DA425C /* AlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertView.swift; sourceTree = "<group>"; };
+		3EB121502B8DF88B002A73B8 /* NavigationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoView.swift; sourceTree = "<group>"; };
+		3EB121522B8DF93F002A73B8 /* StudentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailView.swift; sourceTree = "<group>"; };
 		3EC51C4B2B750B4900F07FBB /* ScratchPaperMCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchPaperMCView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -200,6 +204,8 @@
 				3E99F4722B7625DE00DA425C /* TernaryOperatorView.swift */,
 				3E99F4742B76282900DA425C /* AlertView.swift */,
 				3E519DFA2B88A98700FF58D3 /* PickersView.swift */,
+				3EB121502B8DF88B002A73B8 /* NavigationDemoView.swift */,
+				3EB121522B8DF93F002A73B8 /* StudentDetailView.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -396,7 +402,9 @@
 				3E99F4752B76282900DA425C /* AlertView.swift in Sources */,
 				3E99F4732B7625DE00DA425C /* TernaryOperatorView.swift in Sources */,
 				3E8F1FDA2B504E8000CC1079 /* HeaderView.swift in Sources */,
+				3EB121532B8DF93F002A73B8 /* StudentDetailView.swift in Sources */,
 				3E519DFB2B88A98700FF58D3 /* PickersView.swift in Sources */,
+				3EB121512B8DF88B002A73B8 /* NavigationDemoView.swift in Sources */,
 				3E8F1FE02B5053D100CC1079 /* ContributingView.swift in Sources */,
 				3EC51C4C2B750B4900F07FBB /* ScratchPaperMCView.swift in Sources */,
 				3E8F1FAB2B504AA700CC1079 /* EtoniOSDemosApp.swift in Sources */,
