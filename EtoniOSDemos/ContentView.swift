@@ -41,6 +41,13 @@ struct ContentView: View {
                 Section {
                     
                     NavigationLink {
+                        NavigationLinkView()
+                    } label: {
+                        Text("Using NavigationLinks")
+                    }
+
+                    
+                    NavigationLink {
                         PickersView(etonians: Etonian.examples)
                     } label: {
                         Text("Using pickers")
