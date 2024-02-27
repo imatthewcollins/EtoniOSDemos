@@ -67,6 +67,12 @@ struct ContentView: View {
                     }
                     
                     NavigationLink {
+                        ToggleViewContainmentView()
+                    } label: {
+                        Text("View Containment and Toggles to switch between views")
+                    }
+                    
+                    NavigationLink {
                         HelloWorldView()
                     } label: {
                         Text("Outputting Hello, World!")
