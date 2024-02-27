@@ -12,6 +12,7 @@ struct Etonian: Hashable {
     let lastName: String
     let block: Block
     let majorSport: MajorSport
+    let age: Int = 16
     
     var fullName: String {
         return firstName + " " + lastName
