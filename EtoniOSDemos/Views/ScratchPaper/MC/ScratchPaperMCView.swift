@@ -8,30 +8,26 @@
 import SwiftUI
 
 struct ScratchPaperMCView: View {
-    @State var students: [Etonian]
-    @State var majorSport: MajorSport = .rowing
+    
+    @ObservedObject var viewModel = NewEtonianViewModel.shared
     
     var body: some View {
-        List {
-            Section {
-                ForEach(students, id:\.lastName) { student in
-                    Text("\(student.firstName)")
-                }
+        VStack {
+            TextField("First name", text: $viewModel.firstName)
+            TextField("Last name", text: $viewModel.lastName)
+            Button {
+                viewModel.createNewEtonian()
+            } label: {
+                Text("Create an Eze Etonian")
             }
-            
-            Section {
-                Picker("Choose a major sport", selection: $majorSport) {
-                    ForEach(MajorSport.allCases, id:\.self) { sport in
-                        Text("\(sport.rawValue.capitalized)")
-                    }
-                }
-            }
+
         }
+        .padding()
     }
 }
 
 struct ScratchPaperMCView_Previews: PreviewProvider {
     static var previews: some View {
-        ScratchPaperMCView(students: Etonian.examples)
+        ScratchPaperMCView()
     }
 }

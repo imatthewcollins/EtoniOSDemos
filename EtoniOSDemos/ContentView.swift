@@ -41,12 +41,17 @@ struct ContentView: View {
                 Section {
                     
                     NavigationLink {
+                        EtonianListView()
+                    } label: {
+                        Text("Doing MVVM")
+                    }
+
+                    
+                    NavigationLink {
                         NavigationDemoView()
                     } label: {
                         Text("Navigating using NavigationLinks")
                     }
-
-                    
                     
                     NavigationLink {
                         PickersView(etonians: Etonian.examples)
@@ -84,7 +89,7 @@ struct ContentView: View {
                 
                 Section {
                     NavigationLink {
-                        ScratchPaperMCView(students: Etonian.examples)
+                        ScratchPaperMCView()
                     } label: {
                         Text("MC Scratch Paper")
                     }
@@ -94,7 +99,6 @@ struct ContentView: View {
                 }
             }
             .listStyle(.plain)
-//            .navigationTitle("Eton CS")
         }
     }
 }
