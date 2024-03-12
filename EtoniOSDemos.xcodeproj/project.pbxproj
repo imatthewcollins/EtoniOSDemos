@@ -31,6 +31,7 @@
 		3EB121512B8DF88B002A73B8 /* NavigationDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB121502B8DF88B002A73B8 /* NavigationDemoView.swift */; };
 		3EB121532B8DF93F002A73B8 /* StudentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB121522B8DF93F002A73B8 /* StudentDetailView.swift */; };
 		3EC51C4C2B750B4900F07FBB /* ScratchPaperMCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EC51C4B2B750B4900F07FBB /* ScratchPaperMCView.swift */; };
+		B490F1962BA07D8400E99141 /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490F1952BA07D8400E99141 /* UserDefaultsView.swift */; };
 		B4EE25672B8E0171005CCC6E /* ScratchPaperDPCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE25662B8E0171005CCC6E /* ScratchPaperDPCView.swift */; };
 		B4EE25692B8E0212005CCC6E /* ToggleViewContainmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE25682B8E0212005CCC6E /* ToggleViewContainmentView.swift */; };
 /* End PBXBuildFile section */
@@ -81,6 +82,7 @@
 		3EB121502B8DF88B002A73B8 /* NavigationDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationDemoView.swift; sourceTree = "<group>"; };
 		3EB121522B8DF93F002A73B8 /* StudentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailView.swift; sourceTree = "<group>"; };
 		3EC51C4B2B750B4900F07FBB /* ScratchPaperMCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchPaperMCView.swift; sourceTree = "<group>"; };
+		B490F1952BA07D8400E99141 /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
 		B4EE25662B8E0171005CCC6E /* ScratchPaperDPCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchPaperDPCView.swift; sourceTree = "<group>"; };
 		B4EE25682B8E0212005CCC6E /* ToggleViewContainmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewContainmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -221,6 +223,7 @@
 				B4EE25682B8E0212005CCC6E /* ToggleViewContainmentView.swift */,
 				3E7037212B91DF3B005FB77F /* EtonianListView.swift */,
 				3E7037252B91E0C8005FB77F /* AddNewEtonianView.swift */,
+				B490F1952BA07D8400E99141 /* UserDefaultsView.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -431,6 +434,7 @@
 				3EB121512B8DF88B002A73B8 /* NavigationDemoView.swift in Sources */,
 				3E8F1FE02B5053D100CC1079 /* ContributingView.swift in Sources */,
 				3EC51C4C2B750B4900F07FBB /* ScratchPaperMCView.swift in Sources */,
+				B490F1962BA07D8400E99141 /* UserDefaultsView.swift in Sources */,
 				3E8F1FAB2B504AA700CC1079 /* EtoniOSDemosApp.swift in Sources */,
 				3E8F1FED2B50581300CC1079 /* Human.swift in Sources */,
 			);
