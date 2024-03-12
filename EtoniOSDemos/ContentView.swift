@@ -78,6 +78,12 @@ struct ContentView: View {
                     }
                     
                     NavigationLink {
+                        UserDefaultsView()
+                    } label: {
+                        Text("User Defaults")
+                    }
+                    
+                    NavigationLink {
                         HelloWorldView()
                     } label: {
                         Text("Outputting Hello, World!")
