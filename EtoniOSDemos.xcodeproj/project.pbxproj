@@ -34,6 +34,8 @@
 		B490F1962BA07D8400E99141 /* UserDefaultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B490F1952BA07D8400E99141 /* UserDefaultsView.swift */; };
 		B4EE25672B8E0171005CCC6E /* ScratchPaperDPCView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE25662B8E0171005CCC6E /* ScratchPaperDPCView.swift */; };
 		B4EE25692B8E0212005CCC6E /* ToggleViewContainmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4EE25682B8E0212005CCC6E /* ToggleViewContainmentView.swift */; };
+		B4F1BD922CA577350048BE26 /* EditingDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1BD912CA577350048BE26 /* EditingDataView.swift */; };
+		B4F1BD942CA5775E0048BE26 /* Word.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4F1BD932CA5775E0048BE26 /* Word.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +87,8 @@
 		B490F1952BA07D8400E99141 /* UserDefaultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsView.swift; sourceTree = "<group>"; };
 		B4EE25662B8E0171005CCC6E /* ScratchPaperDPCView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScratchPaperDPCView.swift; sourceTree = "<group>"; };
 		B4EE25682B8E0212005CCC6E /* ToggleViewContainmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleViewContainmentView.swift; sourceTree = "<group>"; };
+		B4F1BD912CA577350048BE26 /* EditingDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditingDataView.swift; sourceTree = "<group>"; };
+		B4F1BD932CA5775E0048BE26 /* Word.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Word.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -224,6 +228,7 @@
 				3E7037212B91DF3B005FB77F /* EtonianListView.swift */,
 				3E7037252B91E0C8005FB77F /* AddNewEtonianView.swift */,
 				B490F1952BA07D8400E99141 /* UserDefaultsView.swift */,
+				B4F1BD912CA577350048BE26 /* EditingDataView.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -231,6 +236,7 @@
 		3E8F1FE32B5055FE00CC1079 /* Tutorials */ = {
 			isa = PBXGroup;
 			children = (
+				B4F1BD932CA5775E0048BE26 /* Word.swift */,
 			);
 			path = Tutorials;
 			sourceTree = "<group>";
@@ -425,12 +431,14 @@
 				3E7037262B91E0C8005FB77F /* AddNewEtonianView.swift in Sources */,
 				3E7037222B91DF3B005FB77F /* EtonianListView.swift in Sources */,
 				3E8F1FE22B50559500CC1079 /* HelloWorldView.swift in Sources */,
+				B4F1BD922CA577350048BE26 /* EditingDataView.swift in Sources */,
 				3E99F4752B76282900DA425C /* AlertView.swift in Sources */,
 				B4EE25672B8E0171005CCC6E /* ScratchPaperDPCView.swift in Sources */,
 				3E99F4732B7625DE00DA425C /* TernaryOperatorView.swift in Sources */,
 				3E8F1FDA2B504E8000CC1079 /* HeaderView.swift in Sources */,
 				3EB121532B8DF93F002A73B8 /* StudentDetailView.swift in Sources */,
 				3E519DFB2B88A98700FF58D3 /* PickersView.swift in Sources */,
+				B4F1BD942CA5775E0048BE26 /* Word.swift in Sources */,
 				3EB121512B8DF88B002A73B8 /* NavigationDemoView.swift in Sources */,
 				3E8F1FE02B5053D100CC1079 /* ContributingView.swift in Sources */,
 				3EC51C4C2B750B4900F07FBB /* ScratchPaperMCView.swift in Sources */,

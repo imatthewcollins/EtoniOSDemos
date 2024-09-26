@@ -78,6 +78,12 @@ struct ContentView: View {
                     }
                     
                     NavigationLink {
+                        EditingDataView()
+                    } label: {
+                        Text("Passing Data around with iOS 17 observation")
+                    }
+                    
+                    NavigationLink {
                         UserDefaultsView()
                     } label: {
                         Text("User Defaults")
